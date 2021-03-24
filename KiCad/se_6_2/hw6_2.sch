@@ -1,0 +1,339 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v2.x A?
+U 1 1 5DE5B1D4
+P 4400 3050
+F 0 "A?" H 4400 1961 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 4400 1870 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 4400 3050 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 4400 3050 50  0001 C CNN
+	1    4400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE5DA2D
+P 3100 3050
+F 0 "D?" H 3093 3266 50  0000 C CNN
+F 1 "LED" H 3093 3175 50  0000 C CNN
+F 2 "" H 3100 3050 50  0001 C CNN
+F 3 "~" H 3100 3050 50  0001 C CNN
+	1    3100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE5F3F0
+P 3400 3150
+F 0 "D?" H 3393 3366 50  0000 C CNN
+F 1 "LED" H 3393 3275 50  0000 C CNN
+F 2 "" H 3400 3150 50  0001 C CNN
+F 3 "~" H 3400 3150 50  0001 C CNN
+	1    3400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE5FF99
+P 3100 3250
+F 0 "D?" H 3093 3466 50  0000 C CNN
+F 1 "LED" H 3093 3375 50  0000 C CNN
+F 2 "" H 3100 3250 50  0001 C CNN
+F 3 "~" H 3100 3250 50  0001 C CNN
+	1    3100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE62676
+P 3450 2950
+F 0 "D?" H 3443 3166 50  0000 C CNN
+F 1 "LED" H 3443 3075 50  0000 C CNN
+F 2 "" H 3450 2950 50  0001 C CNN
+F 3 "~" H 3450 2950 50  0001 C CNN
+	1    3450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DE62EE2
+P 3400 3350
+F 0 "D?" H 3393 3566 50  0000 C CNN
+F 1 "LED" H 3393 3475 50  0000 C CNN
+F 2 "" H 3400 3350 50  0001 C CNN
+F 3 "~" H 3400 3350 50  0001 C CNN
+	1    3400 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2950 3800 2950
+Wire Wire Line
+	3900 3050 3700 3050
+Wire Wire Line
+	3900 3150 3750 3150
+Wire Wire Line
+	3900 3250 3700 3250
+Wire Wire Line
+	3300 3250 3300 3300
+Wire Wire Line
+	3900 3350 3750 3350
+$Comp
+L Device:LED D?
+U 1 1 5DE61CB3
+P 3100 3450
+F 0 "D?" H 3093 3666 50  0000 C CNN
+F 1 "LED" H 3093 3575 50  0000 C CNN
+F 2 "" H 3100 3450 50  0001 C CNN
+F 3 "~" H 3100 3450 50  0001 C CNN
+	1    3100 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3450 3750 3450
+$Comp
+L Device:LED D?
+U 1 1 5DE7AE57
+P 3100 3650
+F 0 "D?" H 3093 3866 50  0000 C CNN
+F 1 "LED" H 3093 3775 50  0000 C CNN
+F 2 "" H 3100 3650 50  0001 C CNN
+F 3 "~" H 3100 3650 50  0001 C CNN
+	1    3100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3650 3750 3650
+$Comp
+L power:GND #PWR?
+U 1 1 5DE7D643
+P 2600 4450
+F 0 "#PWR?" H 2600 4200 50  0001 C CNN
+F 1 "GND" H 2605 4277 50  0000 C CNN
+F 2 "" H 2600 4450 50  0001 C CNN
+F 3 "" H 2600 4450 50  0001 C CNN
+	1    2600 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4450 2600 4400
+Wire Wire Line
+	2600 2950 3300 2950
+Wire Wire Line
+	2950 3050 2600 3050
+Connection ~ 2600 3050
+Wire Wire Line
+	2600 3050 2600 2950
+Wire Wire Line
+	3250 3150 2600 3150
+Connection ~ 2600 3150
+Wire Wire Line
+	2600 3150 2600 3050
+Wire Wire Line
+	2950 3250 2600 3250
+Connection ~ 2600 3250
+Wire Wire Line
+	2600 3250 2600 3150
+Wire Wire Line
+	3250 3350 2600 3350
+Connection ~ 2600 3350
+Wire Wire Line
+	2600 3350 2600 3250
+Wire Wire Line
+	2950 3450 2600 3450
+Connection ~ 2600 3450
+Wire Wire Line
+	2600 3450 2600 3350
+Wire Wire Line
+	3250 3550 2600 3550
+Connection ~ 2600 3550
+Wire Wire Line
+	2600 3550 2600 3450
+Wire Wire Line
+	2950 3650 2600 3650
+Connection ~ 2600 3650
+Wire Wire Line
+	2600 3650 2600 3550
+Wire Wire Line
+	4400 4050 2600 4050
+Connection ~ 2600 4050
+Wire Wire Line
+	2600 4050 2600 3650
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE80813
+P 3700 2950
+F 0 "R?" V 3495 2950 50  0000 C CNN
+F 1 "R_Small_US" V 3586 2950 50  0000 C CNN
+F 2 "" H 3700 2950 50  0001 C CNN
+F 3 "~" H 3700 2950 50  0001 C CNN
+	1    3700 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE823EB
+P 3600 3050
+F 0 "R?" V 3395 3050 50  0000 C CNN
+F 1 "R_Small_US" V 3486 3050 50  0000 C CNN
+F 2 "" H 3600 3050 50  0001 C CNN
+F 3 "~" H 3600 3050 50  0001 C CNN
+	1    3600 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3050 3250 3050
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE82C4A
+P 3650 3150
+F 0 "R?" V 3445 3150 50  0000 C CNN
+F 1 "R_Small_US" V 3536 3150 50  0000 C CNN
+F 2 "" H 3650 3150 50  0001 C CNN
+F 3 "~" H 3650 3150 50  0001 C CNN
+	1    3650 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE8391A
+P 3600 3250
+F 0 "R?" V 3395 3250 50  0000 C CNN
+F 1 "R_Small_US" V 3486 3250 50  0000 C CNN
+F 2 "" H 3600 3250 50  0001 C CNN
+F 3 "~" H 3600 3250 50  0001 C CNN
+	1    3600 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3250 3300 3250
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE845B3
+P 3650 3350
+F 0 "R?" V 3445 3350 50  0000 C CNN
+F 1 "R_Small_US" V 3536 3350 50  0000 C CNN
+F 2 "" H 3650 3350 50  0001 C CNN
+F 3 "~" H 3650 3350 50  0001 C CNN
+	1    3650 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE852D8
+P 3650 3450
+F 0 "R?" V 3445 3450 50  0000 C CNN
+F 1 "R_Small_US" V 3536 3450 50  0000 C CNN
+F 2 "" H 3650 3450 50  0001 C CNN
+F 3 "~" H 3650 3450 50  0001 C CNN
+	1    3650 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3450 3250 3450
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE8B348
+P 3650 3650
+F 0 "R?" V 3445 3650 50  0000 C CNN
+F 1 "R_Small_US" V 3536 3650 50  0000 C CNN
+F 2 "" H 3650 3650 50  0001 C CNN
+F 3 "~" H 3650 3650 50  0001 C CNN
+	1    3650 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 3650 3250 3650
+$Comp
+L Device:LED D?
+U 1 1 5DE8C6F9
+P 3400 3550
+F 0 "D?" H 3393 3766 50  0000 C CNN
+F 1 "LED" H 3393 3675 50  0000 C CNN
+F 2 "" H 3400 3550 50  0001 C CNN
+F 3 "~" H 3400 3550 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3550 3600 3550
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE8DC2B
+P 3700 3550
+F 0 "R?" V 3495 3550 50  0000 C CNN
+F 1 "R_Small_US" V 3586 3550 50  0000 C CNN
+F 2 "" H 3700 3550 50  0001 C CNN
+F 3 "~" H 3700 3550 50  0001 C CNN
+	1    3700 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 3550 3900 3550
+$Comp
+L Device:R_Small_US R?
+U 1 1 5DE8EAA7
+P 5600 2050
+F 0 "R?" V 5395 2050 50  0000 C CNN
+F 1 "10k" V 5486 2050 50  0000 C CNN
+F 2 "" H 5600 2050 50  0001 C CNN
+F 3 "~" H 5600 2050 50  0001 C CNN
+	1    5600 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 2050 5300 2050
+Wire Wire Line
+	6100 2050 6100 1650
+Wire Wire Line
+	6100 1650 3600 1650
+Wire Wire Line
+	3600 1650 3600 2650
+Wire Wire Line
+	3600 2650 3900 2650
+Connection ~ 6100 2050
+Wire Wire Line
+	6600 2050 6600 4400
+Wire Wire Line
+	6600 4400 2600 4400
+Connection ~ 2600 4400
+Wire Wire Line
+	2600 4400 2600 4050
+Wire Wire Line
+	4900 3750 5300 3750
+Wire Wire Line
+	5300 3750 5300 2050
+$Comp
+L Sensor_Optical:LDR03 R?
+U 1 1 5DE99FB1
+P 5050 2050
+F 0 "R?" V 4725 2050 50  0000 C CNN
+F 1 "LDR03" V 4816 2050 50  0000 C CNN
+F 2 "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical" V 5225 2050 50  0001 C CNN
+F 3 "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf" H 5050 2000 50  0001 C CNN
+	1    5050 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 2050 4600 2050
+Wire Wire Line
+	5700 2050 6100 2050
+Connection ~ 5300 2050
+Wire Wire Line
+	5300 2050 5200 2050
+Wire Wire Line
+	6100 2050 6600 2050
+$EndSCHEMATC

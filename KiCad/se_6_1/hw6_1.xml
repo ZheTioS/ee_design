@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>A:\Space Electronics\hw6_1\hw6_1\hw6_1.sch</source>
+    <date>12/01/19 18:31:22</date>
+    <tool>Eeschema (5.1.5)-2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>hw6_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Battery:BatteryHolder_Bulgin_BX0036_1xC</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE4245D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CD4011BE</value>
+      <footprint>CD4011BE:DIP254P762X508-14</footprint>
+      <datasheet>CD4011BE</datasheet>
+      <fields>
+        <field name="Field4">https://www.digikey.com/product-detail/en/texas-instruments/CD4011BE/296-2031-ND/67241?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field5">DIP-14 Hynix</field>
+        <field name="Field6">NAND Gate 4-Element 2-IN CMOS 14-Pin PDIP Tube</field>
+        <field name="Field7">296-2031-ND</field>
+        <field name="Field8">Texas Instruments</field>
+      </fields>
+      <libsource lib="CD4011BE" part="CD4011BE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE50B84</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z1.6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE54312</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_Small_US</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE56154</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CD4011BE" part="CD4011BE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4011BE</field>
+        <field name="Footprint">DIP254P762X508-14</field>
+        <field name="Datasheet">CD4011BE</field>
+        <field name="Field4">https://www.digikey.com/product-detail/en/texas-instruments/CD4011BE/296-2031-ND/67241?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol</field>
+        <field name="Field5">DIP-14 Hynix</field>
+        <field name="Field6">NAND Gate 4-Element 2-IN CMOS 14-Pin PDIP Tube</field>
+        <field name="Field7">296-2031-ND</field>
+        <field name="Field8">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="J" type="output"/>
+        <pin num="4" name="K" type="output"/>
+        <pin num="5" name="C" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="E" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="L" type="output"/>
+        <pin num="11" name="M" type="output"/>
+        <pin num="12" name="G" type="input"/>
+        <pin num="13" name="H" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CD4011BE">
+      <uri>S:\KiCad\lib\CD4011BE\CD4011BE.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>S:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(BT1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+  </nets>
+</export>
