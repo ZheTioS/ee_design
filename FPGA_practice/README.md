@@ -2,9 +2,9 @@
 This repo is for learning FPGA design for embedded systems.
 
 ## Some Abbrevieations you might come across
-CLPD - Complex Logic Programmable Devices
-FA - Full Adder
-FPGA - Field Programmable Gate Arrays
-LUT - Look Up Table
-LE - Logic Element
+1. CLPD - Complex Logic Programmable Devices
+2. FA - Full Adder
+3. FPGA - Field Programmable Gate Arrays
+4. LUT - Look Up Table
+5. LE - Logic Element
 
